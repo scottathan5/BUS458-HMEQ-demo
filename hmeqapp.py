@@ -7,8 +7,8 @@ import sklearn  # This is needed for the pickle file to load!
 
 # Load the trained model
 # --- Put the Model in Drive First---
-with open("/Users/scott/OneDrive/Desktop/BUS 458/Streamlit demo/hmeq_model.pkl", "rb") as file:
-    model = pickle.load(file)
+# with open("/Users/scott/OneDrive/Desktop/BUS 458/Streamlit demo/hmeq_model.pkl", "rb") as file:
+#    model = pickle.load(file)
 
 # Title for the app
 # st.title("Home Equity Loan Approval")
